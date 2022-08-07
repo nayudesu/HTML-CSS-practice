@@ -7,9 +7,8 @@
   </head>
 
   <body>
-    <h1>猫の一日</h1>
-    <p>ひたすら寝ています。</p>
 
+    <h1>tableタグ</h1>
     <!-- border=囲線 -->
     <table border="1">
       <!-- table row -->
@@ -32,6 +31,15 @@
         <td>月額1,900円</td>
       </tr>
     </table>
+
+    <h1>入力フォーム</h1>
+    <!-- action=データの送信先ページを指定  -->
+    <!-- name=フォームの名前を入力 -->
+    <!--実際にデータを受け渡しする処理はPHPなどと連動して動作する-->
+    <form action="example.php" method="post" name="contact-form">
+      名前：<input type="text" placeholder="名字　名前">
+      <!-- input=フォームで使うパーツ  type=属性(textで1文の入力表示) placceholder=属性（入力欄にあらかじめ文字を入れておくことが可能） -->
+    </form>
   </body>
 
 </html>
