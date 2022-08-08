@@ -59,13 +59,23 @@
     <input type="checkbox" name="color" value="green">緑
     <input type="checkbox" name="color" value="other" checked>その他
 
-    <h3>送信ボタン</h3>
+    <h3>3.送信ボタン</h3>
     <!-- "submit"=送信ボタン -->
     <input type="submit" value="送信する" >
     <!-- src=画像のパス、ファイル名 alt=画像を送信するテキスト　-->
     <input type="image" src="chapter2/c2-11-7/images/button.png" alt="送信する" >
 
-    
+    <h3>4.セレクトボックス</h3>
+    <!-- select=選択肢全体を囲む name=セレクトボックスの名前 multiple=複数の項目選択可能にする　-->
+    <!-- option=選択項目 selected=最初から選択している状態 -->
+    血液型：
+    <select name="booldtype">
+      <option value="A">A</option>
+      <option value="B">B</option>
+      <option value="O">O</option>
+      <option value="AB">AB</option>
+      <option value="不明" selected>不明</option>
+    </select>
   </body>
 
 </html>
