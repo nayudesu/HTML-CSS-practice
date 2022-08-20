@@ -9,9 +9,9 @@ body {
 }
 
 h1 {
-  color: #0bd;
+  font-size: 2rem;
 }
 
-p {
+h2 {
   font-size: 20px;
 }
