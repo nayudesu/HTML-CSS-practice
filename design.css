@@ -12,9 +12,14 @@ h1 {
   font-size: 2rem;
   font-family: serif;
   /* serif=明朝体 */
+  font-weight: bold;
+  line-height: 1.5;
+  /* 行間 (おすすめは1.5~1.9) */
+  text-align: center;
 }
 
 h2 {
   font-size: 20px;
   font-family: "游ゴシック体","Yu Gothic";
+  text-align: justify;
 }
