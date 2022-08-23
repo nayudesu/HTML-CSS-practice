@@ -6,6 +6,9 @@
 
 body {
   background-color: #fffeee;
+  background-image: url(chapter3/c3-08-2/images/bg.png);
+  background-repeat: repeat-x;
+  /* background-repeat=背景画像の繰り返し表示方法指定 */
 }
 
 h1 {
