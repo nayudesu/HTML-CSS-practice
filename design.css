@@ -9,6 +9,8 @@ body {
   background-image: url(chapter3/c3-08-2/images/bg.png);
   background-repeat: repeat-x;
   /* background-repeat=背景画像の繰り返し表示方法指定 */
+  /* background-position=背景画像の位置 */
+  /* background-size=背景画像の大きさ　cover=比を保って全体 contain=比を保って余白できる可能性 */
 }
 
 h1 {
