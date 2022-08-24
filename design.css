@@ -30,6 +30,7 @@ h2 {
   text-align: justify;
 }
 
-.cats {
-  list-style: square;
-}
+/* list-style-type=リストマーカー指定　square(■) decimal(数字)*/
+/* list-style-pisition=リストマーカーの位置指定　outside(ボックスの外側) inside(ボックスの内側) */
+/* list-style-image=リストマーカーに画像　*/
+/* list-style=まとめてリストマーカー指定　（typeとimageなら画像優先）*/
