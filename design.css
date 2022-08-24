@@ -6,8 +6,7 @@
 
 body {
   background-color: #fffeee;
-  background-image: url(chapter3/c3-08-2/images/bg.png);
-  background-repeat: repeat-x;
+  /* 画像挿入　background-image: url(chapter3/c3-08-2/images/bg.png); */
   /* background-repeat=背景画像の繰り返し表示方法指定 */
   /* background-position=背景画像の位置 */
   /* background-size=背景画像の大きさ　cover=比を保って全体 contain=比を保って余白できる可能性 */
@@ -15,13 +14,12 @@ body {
 
 h1 {
   font-size: 2rem;
-  font-family: serif;
-  /* serif=明朝体 */
+  font-family: "游ゴシック体","Yu Gothic";/* serif=明朝体 */
   font-weight: bold;
-  line-height: 1.5;
-  /* 行間 (おすすめは1.5~1.9) */
+  line-height: 1.5;/* 行間 (おすすめは1.5~1.9) */
   text-align: center;
-}
+  border-width: thin;/* 線の太さ thin(細い) medium(普通) thisk(太い) */
+  border-style: solid;/* solod(実線) */
 
 h2 {
   font-size: 20px;
