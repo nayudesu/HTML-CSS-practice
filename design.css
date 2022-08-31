@@ -34,3 +34,15 @@ h2 {
 /* list-style-pisition=リストマーカーの位置指定　outside(ボックスの外側) inside(ボックスの内側) */
 /* list-style-image=リストマーカーに画像　*/
 /* list-style=まとめてリストマーカー指定　（typeとimageなら画像優先）*/
+
+.item {
+  background: #0bd;
+  color: #000;
+  margin: 10px;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  /* FlexBox＝親要素に記載 */
+}
