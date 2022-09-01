@@ -44,7 +44,7 @@ h2 {
 
 .container {
   display: flex;/* 親要素に記載 flex=横並び */
-  flex-direction: column;
+  flex-direction: row-reverse;
   /*  flex-direction=子要素の並びを指定　*/
-  /*  column=上から下に縦並び　column-reverse=下から上に縦並び　row=左から右に横並び　*/
+  /*  column=上から下に縦並び　column-reverse=下から上に縦並び　row=左から右に横並び　row-reverse=右から左に横並び　*/
 }
