@@ -39,6 +39,7 @@ h2 {
   background: #0bd;
   color: #000;
   width: 20%;
+  height: 50PX;
   margin: 10px;
   padding: 10px;
 }
@@ -52,4 +53,6 @@ h2 {
   /* flex-wrap=子要素の折り返し nowrap(初期値) wrap(上から下に折り返す) wrap-reverse(下から上に折り返す) */
   justify-content: center;
   /* ustify-content=水平方向の並べ替え flex-end(右揃え) center(中央) space-between(両端に子要素＋均等) space-around(均等) */
+  align-items: stretch;
+  /* align-items=水平方向　stretch(初期値は親要素の最大) flex-start(上揃え) flex-end(下揃え) center(中央) baseline(ベースラインに揃える) */
 }
