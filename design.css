@@ -47,7 +47,9 @@ h2 {
   display: flex;/* 親要素に記載 flex=横並び */
   flex-direction: row-reverse;
   /*  flex-direction=子要素の並びを指定　*/
-  /*  column=上から下に縦並び　column-reverse=下から上に縦並び　row=左から右に横並び　row-reverse=右から左に横並び　*/
+  /*  column(上から下に縦並び)　column-reverse(下から上に縦並び)　row(左から右に横並び)　row-reverse(右から左に横並び)　*/
   flex-wrap: wrap;
   /* flex-wrap=子要素の折り返し nowrap(初期値) wrap(上から下に折り返す) wrap-reverse(下から上に折り返す) */
+  justify-content: center;
+  /* ustify-content=水平方向の並べ替え flex-end(右揃え) center(中央) space-between(両端に子要素＋均等) space-around(均等) */
 }
