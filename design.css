@@ -56,3 +56,19 @@ h2 {
   align-items: stretch;
   /* align-items=水平方向　stretch(初期値は親要素の最大) flex-start(上揃え) flex-end(下揃え) center(中央) baseline(ベースラインに揃える) */
 }
+
+.gurito {
+  display: grid; /* タイル型に指定（grid-template-columnsと併用で表示が変化する） */
+  grid-template-columns: 1fr 1fr 1fr;
+  /* 子要素の横幅指定　（例）３つの子要素を横並びにしたい際には　grid-template-columns: 200px 200px 200px と指定する */
+  /* 単位 fr (画面幅の比率)　1：1：1 */
+  grid-template-rows: 200px 200px 200px 200px;
+  /* 子要素の高さ（例）4行の縦並びにしたい際には　grid-template-rows: 200px 200px 200px 200px と指定する */
+  gap: 10px; /* 子要素同士の余白 */
+}
+
+.box {
+  background: #0bd;
+  color: #000;
+  padding: 10px;
+}
