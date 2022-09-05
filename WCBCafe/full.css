@@ -25,6 +25,11 @@ img {
   margin-top: 14px;
 }
 
+.page-header {
+  display: flex;
+  justify-content: space-between;
+}
+
 .main-nav {
   display: flex;
   list-style: none; /* ・なし */
@@ -45,4 +50,11 @@ img {
 .main-nav a:hover {
   /* :hover=選択した要素上にマウスカーソルがあるときにスタイル */
   color: #0dbd;
+}
+
+.wrapper {
+  /* コンテンツの最大幅指定 */
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 4%;
 }
