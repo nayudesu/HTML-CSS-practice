@@ -30,6 +30,9 @@ img {
 #home {
   /* idを指定する際には＃ */
   background-image: url(../WCBCafe/images/main-bg.jpg);
+  background-color: #0bd;
+  background-blend-mode: hard-light;
+  /* background-color（背景画像に重ねたい色）＋ブレンドモード（background-blend-mode） */
   min-height: 100vh;
 }
 
