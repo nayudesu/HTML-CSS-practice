@@ -20,6 +20,23 @@ img {
   max-width: 100%;
 }
 
+
+/* 背景 */
+.big-bg {
+  background-size: cover;
+  background-position: center top;
+}
+
+#home {
+  /* idを指定する際には＃ */
+  background-image: url(../WCBCafe/images/main-bg.jpg);
+  min-height: 100vh;
+}
+
+#home .page-title{
+  text-transform: none;
+}
+
 .logo {
   width: 210px;
   margin-top: 14px;
