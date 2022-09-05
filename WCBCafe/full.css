@@ -19,3 +19,30 @@ a {
 img {
   max-width: 100%;
 }
+
+.logo {
+  width: 210px;
+  margin-top: 14px;
+}
+
+.main-nav {
+  display: flex;
+  list-style: none; /* ・なし */
+  font-size: 1.25rem;
+  margin-top: 35px;
+  text-transform: uppercase;
+  /* テキストを大文字（uppercase）、小文字（lowercase）に変換 */
+}
+
+.main-nav li {
+  margin-left: 36px;
+}
+
+.main-nav a {
+  color: #432;
+}
+
+.main-nav a:hover {
+  /* :hover=選択した要素上にマウスカーソルがあるときにスタイル */
+  color: #0dbd;
+}
