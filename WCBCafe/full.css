@@ -117,3 +117,15 @@ img {
 .button:hover {
   background: #0090aa;
 }
+
+/* NEWSページ */
+#news {
+  /* idを指定する際には＃ */
+  background-image: url(../WCBCafe/images/news-bg.jpg),linear-gradient(#c9ffbf,#ffafbd);
+  height: 270px;
+  margin-bottom: 40px;
+}
+
+#news .page-title {
+  text-align: center;
+}
