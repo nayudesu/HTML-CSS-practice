@@ -191,8 +191,22 @@ aside p {
 }
 
 .sub-menu {
-  list-style: none;
+  list-style: none; /*　・削除  */
   margin-bottom: 60px;
+}
+
+.sub-menu li {
+  border-bottom: 1px #ddd solid;
+}
+
+.sub-menu a {
+  color: #432;
+  padding: 10px;
+  display: block; /* リンクでクリックできる幅を広げる */
+}
+
+.sub-menu a:hover {
+  color: #0bd; /* a:hover=カーソル重ねた部分 */
 }
 
 /* footer */
