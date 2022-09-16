@@ -186,6 +186,15 @@ article p {
   font-weight: normal;
 }
 
+aside p {
+  padding: 12px 10px;
+}
+
+.sub-menu {
+  list-style: none;
+  margin-bottom: 60px;
+}
+
 /* footer */
 footer {
   background: #432;
