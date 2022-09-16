@@ -130,6 +130,8 @@ img {
   text-align: center;
 }
 
+
+/* メイン部分 */
 .post-info {
   position: relative; /* relative＝相対位置 */
   padding-top: 4px;
@@ -173,6 +175,15 @@ article img {
 }
 article p {
   margin-bottom: 1rem;
+}
+
+
+/* サイドバー部分 */
+.sub-title {
+  font-size: 1.375rem;
+  padding: 0 8px 8px;
+  border-bottom: 2px #0bd solid;
+  font-weight: normal;
 }
 
 /* footer */
