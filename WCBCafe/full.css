@@ -129,15 +129,12 @@ img {
 #news .page-title {
   text-align: center;
 }
-
-
 /* メイン部分 */
 .post-info {
   position: relative; /* relative＝相対位置 */
   padding-top: 4px;
   margin-bottom: 40px;
 }
-
 .post-date {
   border-radius: 50%;
   background: #0bd;
@@ -176,8 +173,6 @@ article img {
 article p {
   margin-bottom: 1rem;
 }
-
-
 /* サイドバー部分 */
 .sub-title {
   font-size: 1.375rem;
@@ -224,6 +219,26 @@ article {
 /* サイドバー */
 aside {
   width: 22%;
+}
+
+
+
+
+/* MENU */
+#menu {
+  background-image: url(../WCBCafe/images/menu-bg.jpg);
+  min-height: 100vh;
+}
+.menu-content {
+  max-width: 560px;
+  margin-top: 10%;
+}
+.menu-content .page-title {
+  text-align: center;
+}
+.main-content p {
+  font-size: 1.125rem;
+  margin: 10px 0 0;
 }
 
 /* footer */
